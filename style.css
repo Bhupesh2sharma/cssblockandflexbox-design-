@@ -1,0 +1,82 @@
+body{
+    margin: 7px;
+    padding: 0px;
+}
+
+.box-1{
+border: 1px solid lightgray;
+width: 300px;
+padding: 3px;
+margin: 10px;
+border-radius: 8px;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.c-img{
+    width: 95%;
+    border-radius: 16px;
+    border: 1px solid lightblue
+}
+
+.btn{
+    background-color: aquamarine;
+    color: black;
+    border: 1px solid lightblue;
+    padding: 12px;
+    border-radius: 16px;
+}
+
+.fxexbox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-1:hover{
+    transform: rotate(-3deg);
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.navb{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+    height: 80px;
+    width: 100%;
+}
+.logo{
+    color: black;
+    font-size: medium;
+    line-height: 70px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.navb ul{
+    float:right;
+    margin-right: 20px;
+}
+.navb ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin :0px  5px;
+   
+
+}
+
+.navb ul li a{
+    color: black;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 8px 13px;
+    border-radius: 3px;
+   
+}
+
+a.active,a:hover{
+    background-color: blanchedalmond;
+    transition: .5s;
+}
